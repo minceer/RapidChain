@@ -6,7 +6,7 @@
 
           <h1 class="text-3xl pl-8 lg:pl-0 w-max uppercase text-regular text-neutral-800">Rapid Chain</h1>
         </div>
-        <button class="mx-4 hidden" :onclick="aside=!aside" >
+        <button class="mx-4 hidden" @click="aside=!aside" >
           <Icon icon="ic:round-menu" class="text-3xl text-neutral-900" />
         </button>
         <div :class="aside ? 'flex' : 'hidden'">
