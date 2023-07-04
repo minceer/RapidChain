@@ -32,7 +32,6 @@
           <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="https://rapidvm.gitbook.io/docs/">Docs</a>
           <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="#adventage">Rapid_</a>
           <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="#roadMap">Roadmap</a>
-          https://rapidvm.gitbook.io/docs/
         </div>
       </div>
     </div>
