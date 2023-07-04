@@ -17,21 +17,21 @@
               <button class="mx-4" @click="aside = false">
                 <Icon icon="ic:round-close" class="text-3xl text-neutral-900" />
               </button>
-              <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="#home">Home</a>
-              <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="https://rapidscan.io/">Explorer</a>
-              <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="https://rapidvm.gitbook.io/docs/">Docs</a>
-              <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="#adventage">Rapid_</a>
-              <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="#roadMap">Roadmap</a>
+              <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="#home" target="_blank">Home</a>
+              <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="https://rapidscan.io/" target="_blank">Explorer</a>
+              <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="https://rapidvm.gitbook.io/docs/" target="_blank">Docs</a>
+              <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="#adventage" target="_blank">Rapid_</a>
+              <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="#roadMap" target="_blank">Roadmap</a>
               
             </div>
           </div>
         </div>
         <div class="hidden md:flex gap-10 h-max my-auto">
-          <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="#home">Home</a>
-          <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="https://rapidscan.io/">Explorer</a>
-          <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="https://rapidvm.gitbook.io/docs/">Docs</a>
-          <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="#adventage">Rapid_</a>
-          <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="#roadMap">Roadmap</a>
+          <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="#home" target="_blank">Home</a>
+          <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="https://rapidscan.io/" target="_blank">Explorer</a>
+          <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="https://rapidvm.gitbook.io/docs/" target="_blank">Docs</a>
+          <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="#adventage" target="_blank">Rapid_</a>
+          <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="#roadMap" target="_blank">Roadmap</a>
         </div>
       </div>
     </div>
