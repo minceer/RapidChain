@@ -21,7 +21,7 @@
               <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="https://rapid-sale.vercel.app/" target="_blank">Special Sale 2</a>
               <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="https://rapidscan.io/" target="_blank">Explorer</a>
               <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="https://rapidvm.gitbook.io/docs/" target="_blank">Docs</a>
-              <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="#adventage" target="_blank">Rapid_</a>
+              <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="https://faucet.rapidscan.io" target="_blank">Faucet</a>
               <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="#roadMap" target="_blank">Roadmap</a>
               
             </div>
@@ -32,7 +32,7 @@
           <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="https://rapid-sale.vercel.app/" target="_blank">Special Sale 2</a>
           <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="https://rapidscan.io/" target="_blank">Explorer</a>
           <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="https://rapidvm.gitbook.io/docs/" target="_blank">Docs</a>
-          <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="#adventage" target="_blank">Rapid_</a>
+          <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="https://faucet.rapidscan.io" target="_blank">Faucet</a>
           <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="#roadMap" target="_blank">Roadmap</a>
         </div>
       </div>
