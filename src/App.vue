@@ -8,6 +8,7 @@
         <button class="p-4 bg-transparent text-white md:hidden right-0 top-0 absolute " @click="toggleSidebar">
           <Icon icon="mingcute:menu-fill" class="text-3xl text-emerald-500" />
         </button>
+<<<<<<< HEAD
         <div class="w-screen md:hidden h-screen bg-black/25 top-0 left-0 absolute"
           :class="sidebarOpen ? 'fixed' : 'hidden'" @click="toggleSidebar">
         </div>
@@ -55,6 +56,33 @@
               <a :href="menuItem.link">{{ menuItem.title }}</a>
             </div>
           </div>
+=======
+        <div :class="aside ? 'flex' : 'hidden'">
+          <div class="fixed inset-0 bg-black bg-opacity-50 z-50" :class="aside ? 'flex' : 'hidden'"
+            @click="aside = false"></div>
+          <div class="fixed inset-y-0 right-0 w-64 bg-white z-50" :class="aside ? 'flex' : 'hidden'">
+            <div class="flex flex-col gap-4 p-4">
+              <button class="mx-4" @click="aside = false">
+                <Icon icon="ic:round-close" class="text-3xl text-neutral-900" />
+              </button>
+              <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="#home" target="_blank">Home</a>
+              <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="https://rapid-sale.vercel.app/" target="_blank">Special Sale 2</a>
+              <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="https://rapidscan.io/" target="_blank">Explorer</a>
+              <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="https://rapidvm.gitbook.io/docs/" target="_blank">Docs</a>
+              <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="https://faucet.rapidchain.io" target="_blank">Faucet</a>
+              <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="#roadMap" target="_blank">Roadmap</a>
+              
+            </div>
+          </div>
+        </div>
+        <div class="hidden md:flex gap-10 h-max my-auto">
+          <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="#home" target="_blank">Home</a>
+          <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="https://rapid-sale.vercel.app/" target="_blank">Special Sale 2</a>
+          <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="https://rapidscan.io/" target="_blank">Explorer</a>
+          <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="https://rapidvm.gitbook.io/docs/" target="_blank">Docs</a>
+          <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="https://faucet.rapidchain.io" target="_blank">Faucet</a>
+          <a class="text-xl hover:text-green-600 text-gray-600 text-regular" href="#roadMap" target="_blank">Roadmap</a>
+>>>>>>> 57e83e31dce16eed65c83716faa98f7ede17b04d
         </div>
       </div>
     </div>
@@ -240,6 +268,7 @@
 import { Icon } from '@iconify/vue';
 import { ref } from 'vue';
 
+<<<<<<< HEAD
 const sidebarOpen = ref(false);
 const menuItems = ref([
   {
@@ -287,3 +316,7 @@ button {
   cursor: pointer;
 }
 </style>
+=======
+const aside = ref(false);
+</script>
+>>>>>>> 57e83e31dce16eed65c83716faa98f7ede17b04d
