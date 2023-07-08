@@ -44,14 +44,14 @@
               <div class="h-max absolute left-0 w-full bg-white rounded-lg shadow-xl bg-blur" @mouseover="menuItem.navopen = true"
                 @mouseleave="menuItem.navopen = false">
                 <div v-if="menuItem.childs && menuItem.navopen" v-for="child in menuItem.childs" :key="child.id"
-                  class="pt-6 p-4">
-                  <a :href="child.link" target="_blank" rel="noopener noreferrer" class="text-md text-gray-600 hover:text-green-600 text-regular mx-8">{{
+                  class="pt-6 p-2">
+                  <a :href="child.link" target="_blank" rel="noopener noreferrer" class="text-md text-gray-600 hover:text-green-600 text-regular mx-2">{{
                     child.title
                   }}</a>
                 </div>
               </div>
             </div>
-            <div v-else class="text-xl text-green-600 text-regular px-8 p-8">
+            <div v-else class="text-xl text-green-600 text-regular px-2 p-2">
               <a :href="menuItem.link" target="_blank" rel="noopener noreferrer" >{{ menuItem.title }}</a>
             </div>
           </div>
