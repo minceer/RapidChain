@@ -52,7 +52,7 @@
               </div>
             </div>
             <div v-else class="text-xl text-green-600 text-regular px-8 p-8">
-              <a :href="menuItem.link"target="_blank" rel="noopener noreferrer" >{{ menuItem.title }}</a>
+              <a :href="menuItem.link" target="_blank" rel="noopener noreferrer" >{{ menuItem.title }}</a>
             </div>
           </div>
         </div>
