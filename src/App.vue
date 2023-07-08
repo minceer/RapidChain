@@ -20,7 +20,7 @@
                 @click="toggleSubmenu(menuItem.id)">
                 {{ menuItem.title }}
                 <div v-if="menuItem.childs && menuItem.asideopen" v-for="child in menuItem.childs" :key="child.id"
-                  class="ml-8 flex flex-col gap-4 mt-6">
+                  class="ml-8 flex flex-col mt-6">
                   <a :href="child.link" class="text-xl hover:text-green-600 text-gray-600 text-regular"  target="_blank" rel="noopener noreferrer" >{{ child.title
                   }}</a>
                 </div>
