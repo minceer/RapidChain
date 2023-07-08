@@ -45,14 +45,14 @@
                 @mouseleave="menuItem.navopen = false">
                 <div v-if="menuItem.childs && menuItem.navopen" v-for="child in menuItem.childs" :key="child.id"
                   class="pt-6 p-4">
-                  <a :href="child.link" class="text-xl text-gray-600 hover:text-green-600 text-regular mx-8">{{
+                  <a :href="child.link" target="_blank" rel="noopener noreferrer" class="text-md text-gray-600 hover:text-green-600 text-regular mx-8">{{
                     child.title
                   }}</a>
                 </div>
               </div>
             </div>
             <div v-else class="text-xl text-green-600 text-regular px-8 p-8">
-              <a :href="menuItem.link">{{ menuItem.title }}</a>
+              <a :href="menuItem.link"target="_blank" rel="noopener noreferrer" >{{ menuItem.title }}</a>
             </div>
           </div>
         </div>
@@ -243,15 +243,26 @@ import { ref } from 'vue';
 const sidebarOpen = ref(false);
 const menuItems = ref([
   {
-    id: 1, title: 'Menu Item 1', asideopen: false, navopen: false, link: null,
+    id: 1, title: 'Tools', asideopen: false, navopen: false, link: null,
     childs: [
-      { id: 1, title: 'Child 1', link: 'https://www.google.com.tr' },
-      { id: 2, title: 'Child 2', link: 'https://www.google.com.tr' },
-      { id: 3, title: 'Child 3', link: 'https://www.google.com.tr' },
+      { id: 1, title: 'Docs', link: 'https://rapidvm.gitbook.io/docs/' },
+      { id: 2, title: 'Faucet', link: 'https://faucet.rapidchain.io/' },
     ]
   },
-  { id: 2, title: 'Menu Item 2', open: false, navopen: false, link: 'https://www.google.com', childs: null },
-  { id: 3, title: 'Menu Item 3', open: false, navopen: false, link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', childs: null },
+  { id: 2, title: 'Community', open: false, navopen: false, link: null, 
+  childs: [
+      { id: 1, title: 'Twitter', link: 'https://twitter.com/rapidchain' },
+      { id: 2, title: 'Telegram', link: 'https://t.me/RapidChainOfficial' },
+    ]
+  },
+  { id: 3, title: 'Ecosystems', open: false, navopen: false, link: null, 
+  childs: [
+      { id: 1, title: 'Name Service', link: 'https://www.rapidnameservices.com/' },
+    ]
+  },
+  { id: 4, title: 'Private Sale 2', open: false, navopen: false, link: 'https://rapid-sale.vercel.app/', childs: null },
+  { id: 5, title: 'Explorer', open: false, navopen: false, link: 'https://rapidscan.io/', childs: null },
+
 ]);
 
 const toggleSidebar = () => {
