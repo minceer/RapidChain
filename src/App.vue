@@ -21,11 +21,11 @@
                 {{ menuItem.title }}
                 <div v-if="menuItem.childs && menuItem.asideopen" v-for="child in menuItem.childs" :key="child.id"
                   class="ml-8 flex flex-col gap-4 mt-6">
-                  <a :href="child.link" class="text-xl hover:text-green-600 text-gray-600 text-regular">{{ child.title
+                  <a :href="child.link" class="text-xl hover:text-green-600 text-gray-600 text-regular"  target="_blank" rel="noopener noreferrer" >{{ child.title
                   }}</a>
                 </div>
               </span>
-              <a v-else class="text-xl text-green-600 text-regular ml-8" :href="menuItem.link">{{ menuItem.title }}</a>
+              <a v-else class="text-xl text-green-600 text-regular ml-8" :href="menuItem.link"  target="_blank" rel="noopener noreferrer" >{{ menuItem.title }}</a>
             </div>
           </div>
         </div>
